@@ -1,14 +1,11 @@
-
+import Todo from "./components/Todo";
 
 function App() {
-
   return (
-    <>
-    <div>
-      <h1>TODO redux  </h1>
-    </div>
-    </>
-  )
+    <section>
+      <Todo />
+    </section>
+  );
 }
 
-export default App
+export default App;
